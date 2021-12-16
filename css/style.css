@@ -274,3 +274,17 @@ section{
     font-size: 38px;
     font-weight: 400;
   }
+
+
+
+  #experts .item .text h6 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  #experts .item .text p {
+    font-size: 12px;
+  }
+
+
