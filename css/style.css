@@ -235,7 +235,7 @@ header nav {
   }
 
 
-section{
+#about{
     background-color: #f7f7f7;
 }
   #about .img {
@@ -287,4 +287,65 @@ section{
     font-size: 12px;
   }
 
+
+
+  #subscribe {
+    background: url(../img/h3-background-img.jpg);
+    background-attachment: fixed;
+  }
+  
+  #subscribe .content h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  #subscribe .content input {
+    border: none;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    padding: 30px !important;
+    width: 100% !important;
+  }
+  
+  #subscribe .content input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  @media (min-width: 576px) {
+    #subscribe .content input {
+      width: 50% !important;
+    }
+  }
+  
+  #subscribe .content ::-webkit-input-placeholder {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #subscribe .content :-ms-input-placeholder {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #subscribe .content ::-ms-input-placeholder {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #subscribe .content ::placeholder {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #subscribe .content button {
+    padding: 20px !important;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: #f34f3f;
+  }
 
