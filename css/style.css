@@ -350,6 +350,10 @@ header nav {
   }
 
 
+
+  #blog{
+    background-color: #f7f7f7;
+  }
   #blog .item .img {
     overflow: hidden;
   }
@@ -395,3 +399,29 @@ header nav {
     line-height: 29px;
   }
 
+
+
+  footer {
+    background-color: #fefaf3;
+  }
+  
+  footer .item h6 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  footer a {
+    font-size: 14px;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+  }
+  
+  footer a:hover {
+    color: #f34f3f !important;
+    text-decoration: none;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
