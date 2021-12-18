@@ -349,3 +349,49 @@ header nav {
     background-color: #f34f3f;
   }
 
+
+  #blog .item .img {
+    overflow: hidden;
+  }
+  
+  #blog .item .img img {
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
+  
+  #blog .item .img img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  
+  #blog .item .img .date {
+    top: 10px;
+    left: 10px;
+  }
+  
+  #blog .item .img .date span {
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: .15em;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+  }
+  
+  #blog .item .img .date span:hover {
+    color: #f34f3f;
+  }
+  
+  #blog .item .text h5 {
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+  }
+  
+  #blog .item .text p {
+    font-family: Lora, serif;
+    line-height: 29px;
+  }
+
