@@ -184,7 +184,7 @@ header nav {
     width: 0;
     opacity: 0;
     visibility: hidden;
-    background-color:azure;
+    background-color:white;
   }
   
   header .mobile-navbar .fa-times {
@@ -425,4 +425,70 @@ header nav {
   
   footer p {
     font-size: 12px;
+  }
+
+
+
+
+
+  #accordion-title {
+    background-color: #f7f7f7;
+  }
+  
+  #accordion-title h1{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  #accordion-title i{
+    font-family: Lora, serif;
+    font-size: 17px;
+  }
+  
+  #accordion .question {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  
+  #accordion .question span {
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  #accordion .question:hover {
+    background-color: #f34f3f;
+    color: #fff !important;
+  }
+  
+  #accordion .question.active {
+    background-color: #f34f3f;
+    color: #fff !important;
+  }
+  
+  #accordion .answer {
+    display: none;
+  }
+  
+  #accordion .answer p {
+    font-family: Lora, serif;
+  }
+  
+  #accordion .answer.active {
+    display: block;
+  }
+  
+  #accordion .accordion-color .question {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  #accordion .accordion-color .question:hover {
+    background-color: #fff;
+    color: #f34f3f !important;
+  }
+  
+  #accordion .accordion-color .question.active {
+    background-color: #fff;
+    color: #f34f3f !important;
   }
