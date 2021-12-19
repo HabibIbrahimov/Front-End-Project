@@ -175,7 +175,7 @@ header nav {
   header nav ul .search ul li i {
     font-size: 14px !important;
   }
-  
+ 
   header .mobile-navbar {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -184,6 +184,7 @@ header nav {
     width: 0;
     opacity: 0;
     visibility: hidden;
+    background-color:azure;
   }
   
   header .mobile-navbar .fa-times {
@@ -399,7 +400,7 @@ header nav {
     line-height: 29px;
   }
 
-
+  
 
   footer {
     background-color: #fefaf3;
