@@ -492,3 +492,70 @@ header nav {
     background-color: #fff;
     color: #f34f3f !important;
   }
+
+
+
+
+
+  #tab-title{
+    background-color: #f7f7f7;
+  }
+  #tab-title h1{
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  }
+  #tab-title i{
+  font-family: Lora, serif;
+  font-size: 17px;
+  }
+  #tab ul li {
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  #tab ul li:hover {
+    color: #f34f3f;
+  }
+  
+  #tab ul li.active {
+    color: #fff;
+    background-color: #f34f3f;
+  }
+  
+  #tab .detail p {
+    display: none;
+  }
+  
+  #tab .detail p.active {
+    display: block;
+  }
+  
+  #tab .tab2 ul li {
+    background-color: #f7f7f7;
+  }
+  
+  #tab .tab2 ul li:hover {
+    color: #fff !important;
+    background-color: #f34f3f !important;
+  }
+  
+  #tab .tab2 ul li.active {
+    color: #fff !important;
+    background-color: #f34f3f !important;
+  }
+  
+  #tab .tab3 ul li:hover {
+    color: #f34f3f;
+  }
+  
+  #tab .tab3 ul li.active {
+    color: #f34f3f;
+    background-color: #fff;
+  }
+ 
+  
+ 
