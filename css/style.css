@@ -910,3 +910,190 @@ header nav {
     padding: 15px 45px;
     margin-top: 20px;
   }
+
+
+
+  #progress_bar_1 {
+    padding: 100px 0;
+  }
+  
+  #progress_bar_1 .container .row .bars {
+    margin-bottom: 50px;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar {
+    margin-bottom: 15px;
+  }
+  
+  #fprogress_bar_1 .container .row .bars .bar h5 {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    color: #1b1b1b;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar h5 .right_count span {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar .my_progress {
+    background-color: #ddd;
+    display: block;
+    height: 3px;
+    overflow: hidden;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar .my_progress .my_bar {
+    height: 3px;
+    background-color: #f34f3f;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar .my_progress .f_my_bar {
+    width: 95%;
+    -webkit-animation: f_my_bar 3s;
+            animation: f_my_bar 3s;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar .my_progress .s_my_bar {
+    width: 80%;
+    -webkit-animation: s_my_bar 3s;
+            animation: s_my_bar 3s;
+  }
+  
+  #progress_bar_1 .container .row .bars .bar .my_progress .t_my_bar {
+    width: 55%;
+    -webkit-animation: t_my_bar 3s;
+            animation: t_my_bar 3s;
+  }
+  
+  @-webkit-keyframes f_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  
+  @keyframes f_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  
+  @-webkit-keyframes s_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  
+  @keyframes s_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  
+  @-webkit-keyframes t_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 55%;
+    }
+  }
+  
+  @keyframes t_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 55%;
+    }
+  }
+  
+  #progress_bar_2 {
+    padding: 100px 0;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar {
+    margin-bottom: 15px;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar h5 {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    color: #1b1b1b;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar h5 .right_count span {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar .my_progress {
+    background-color: #000;
+    display: block;
+    height: 3px;
+    overflow: hidden;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar .my_progress .my_bar {
+    height: 3px;
+    background-color: #f34f3f;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar .my_progress .f_my_bar {
+    width: 95%;
+    -webkit-animation: f_my_bar 3s;
+            animation: f_my_bar 3s;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar .my_progress .s_my_bar {
+    width: 80%;
+    -webkit-animation: s_my_bar 3s;
+            animation: s_my_bar 3s;
+  }
+  
+  #progress_bar_2 .container .row .bars .bar .my_progress .t_my_bar {
+    width: 55%;
+    -webkit-animation: t_my_bar 3s;
+            animation: t_my_bar 3s;
+  }
+  
+  @keyframes f_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  
+  @keyframes s_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  
+  @keyframes t_my_bar {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 55%;
+    }
+  }
