@@ -451,6 +451,31 @@ header nav {
 
   
 
+
+  #slider_2 .item .img img {
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+  }
+  
+  #slider_2 .item .text i {
+    font-family: Lora, serif;
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+  
+  #slider_2 .item .author h6 {
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  #slider_2 .item .author p {
+    font-size: 12px;
+  }
+
+
+
   footer {
     background-color: #fefaf3;
   }

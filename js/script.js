@@ -25,7 +25,7 @@ $(document).on('click', '.mobile-navbar ul li a', function () {
 })
 
 
- //slider start
+ //slider 
  $(function() {
     $(".Slider").vegas({
         slides: [
@@ -36,8 +36,18 @@ $(document).on('click', '.mobile-navbar ul li a', function () {
         animation: 'kenburnsDownLeft'
     });
 });
-//slider end
 
+
+//slider_2 
+$(document).ready(function(){
+    $(".slider2").owlCarousel(
+        {
+            items: 1,
+            loop: true,
+            autoplay: true
+        }
+    );
+  });
 
 //ACCORDION
 
