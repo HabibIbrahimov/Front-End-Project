@@ -25,6 +25,19 @@ $(document).on('click', '.mobile-navbar ul li a', function () {
 })
 
 
+ //slider start
+ $(function() {
+    $(".Slider").vegas({
+        slides: [
+            { src: './img/h3-slider-background-2.jpg' },
+            { src: './img/h3-slider-background-3.jpg' },
+            { src: './img/h3-slider-background.jpg' }
+        ],
+        animation: 'kenburnsDownLeft'
+    });
+});
+//slider end
+
 
 //ACCORDION
 

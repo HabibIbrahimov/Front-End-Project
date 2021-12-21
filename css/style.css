@@ -236,6 +236,55 @@ header nav {
   }
 
 
+
+  .Slider{
+    width: 100%;
+    height: 500px;
+}
+.SliderInner{
+    position: absolute; 
+    transition: all 0.3s;
+    top: 70px;
+    left: 100px;
+    z-index: 2;
+}
+.SliderInner>h3{
+   
+    z-index: 5;
+    min-width: 347px;
+    max-width: 347px;
+    white-space: normal;  
+    font-size: 41px;
+    line-height: 50px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  
+    font-family: home-font;
+}
+.SliderInner>h3>span{
+    color: red;
+}
+.SliderInner>p{
+    z-index: 6;
+    min-width: 429px;
+    max-width: 429px;
+    white-space: normal;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(109, 106, 106);
+    font-family: Lora;
+    text-align: inherit;
+}
+.SliderInner>img{
+    top:260px;
+    position: absolute;
+}
+.vegas-slider{
+    width: 50% !important;
+    height: 50% !important;
+}
+
+
 #about{
     background-color: #f7f7f7;
 }
