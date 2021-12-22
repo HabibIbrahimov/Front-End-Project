@@ -130,5 +130,22 @@ $('.loading').each(function () {
 });
 
 
+//Product Tab
+let product_menus = document.querySelectorAll("#product_tab .menus .menu");
+let product_contents = document.querySelectorAll("#product_tab .contents .content");
 
-
+for (let menu of product_menus) {
+    menu.addEventListener("click", function () {
+        document.querySelector("#product_tab .menus .selected").classList.remove("selected");
+        this.classList.add("selected");
+        let data_id = this.getAttribute("data-id");
+        for (let content of product_contents) {
+            if (data_id == content.getAttribute("data-id")) {
+                content.classList.remove("d-none");
+            }
+            else {
+                content.classList.add("d-none");
+            }
+        }
+    })
+}
