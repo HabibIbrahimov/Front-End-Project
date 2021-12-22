@@ -29,13 +29,11 @@ header nav {
   
   header nav ul li a::after {
     content: "";
-    -webkit-transition: width .3s;
     transition: width .3s;
     position: absolute;
     bottom: 0;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+     transform: translateX(-50%);
     width: 0;
     height: 1px;
     background-color: black;
@@ -50,8 +48,7 @@ header nav {
   }
   
   header nav ul li .fa-search {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
+  transform: rotateY(180deg);
   }
   
   header nav ul li i, header nav ul li span {
@@ -59,7 +56,6 @@ header nav {
   }
   
   header nav ul li ul {
-    -webkit-transition: opacity .3s;
     transition: opacity .3s;
     position: absolute;
     top: 115px;
@@ -109,7 +105,6 @@ header nav {
   }
   
   header nav ul li .shop {
-    -webkit-transition: opacity .3s;
     transition: opacity .3s;
     position: absolute;
     top: 115px;
@@ -177,7 +172,6 @@ header nav {
   }
  
   header .mobile-navbar {
-    -webkit-transition: all .3s;
     transition: all .3s;
     top: 0;
     right: 36px;
@@ -237,18 +231,20 @@ header nav {
 
 
 
-  .Slider{
+
+
+.Slider{
     width: 100%;
     height: 500px;
 }
-.SliderInner{
+.SliderItem{
     position: absolute; 
     transition: all 0.3s;
     top: 70px;
     left: 100px;
     z-index: 2;
 }
-.SliderInner>h3{
+.SliderItem h3{
    
     z-index: 5;
     min-width: 347px;
@@ -261,10 +257,10 @@ header nav {
   
     font-family: home-font;
 }
-.SliderInner>h3>span{
+.SliderItem h3 span{
     color: red;
 }
-.SliderInner>p{
+.SliderItem p{
     z-index: 6;
     min-width: 429px;
     max-width: 429px;
@@ -275,7 +271,7 @@ header nav {
     font-family: Lora;
     text-align: inherit;
 }
-.SliderInner>img{
+.SliderItem img{
     top:260px;
     position: absolute;
 }
@@ -283,6 +279,72 @@ header nav {
     width: 50% !important;
     height: 50% !important;
 }
+
+
+
+
+#products_main ul li a {
+  margin-right: 30px;
+  text-transform: uppercase;
+  transition: color .3s;
+  font-size: 13px;
+  letter-spacing: .1em;
+  color: black;
+}
+
+#products_main ul li a:hover {
+  color: #f34f3f;
+  text-decoration: none;
+}
+
+#products_main .product-item .img {
+  overflow: hidden;
+}
+
+#products_main .product-item .img img {
+  transition: all .3s;
+}
+
+#products_main .product-item .img:hover img {
+ transform: scale(1.05);
+}
+
+#products_main .product-item .title h6 {
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+#products_main .product-item .price span:nth-child(2) {
+  margin-left: -10px;
+}
+
+#products_main .product-item .price span:nth-child(1) {
+  margin-left: -70px;
+  opacity: 0;
+}
+
+#products_m
+  transition: all .3s;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#products_main .product-item .price span:hover {
+  color: #f34f3f !important;
+}
+
+#products_main .product-item:hover .price span:nth-child(2) {
+  margin-left: 0px;
+  opacity: 0;
+}
+
+#products_main .product-item:hover .price span:nth-child(1) {
+  margin-left: 30px;
+  opacity: 1;
+}
+
+
 
 
 #about{
@@ -295,13 +357,11 @@ header nav {
   }
   
   #about .img img {
-    -webkit-transition: all .3s;
     transition: all .3s;
   }
   
   #about .img:hover img {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
   
   #about .img .player {
@@ -310,8 +370,7 @@ header nav {
     top: 50%;
     left: 50%;
     background: white;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);     
+    transform: translate(-50%, -50%);     
   }
   
   #about .about-text p, #about .about-text li {
@@ -360,8 +419,7 @@ header nav {
   
   #subscribe .content input:focus {
     outline: none;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   
   @media (min-width: 576px) {
@@ -410,15 +468,11 @@ header nav {
   
   #blog .item .img img {
     cursor: pointer;
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
     transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s;
   }
   
   #blog .item .img img:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+  transform: scale(1.05);
   }
   
   #blog .item .img .date {
@@ -430,7 +484,6 @@ header nav {
     cursor: pointer;
     font-size: 12px;
     letter-spacing: .15em;
-    -webkit-transition: color .3s;
     transition: color .3s;
   }
   
@@ -488,7 +541,6 @@ header nav {
   
   footer a {
     font-size: 14px;
-    -webkit-transition: color .3s;
     transition: color .3s;
   }
   
@@ -520,7 +572,6 @@ header nav {
   }
   
   #accordion .question {
-    -webkit-transition: all .3s;
     transition: all .3s;
     cursor: pointer;
   }
@@ -583,7 +634,6 @@ header nav {
   font-size: 17px;
   }
   #tab ul li {
-    -webkit-transition: color .3s;
     transition: color .3s;
     cursor: pointer;
     font-size: 13px;
@@ -747,20 +797,17 @@ header nav {
   }
   
   #product_list .container .row .same_product .row .card:hover .image img {
-    -webkit-transform: scale(1.05) translateZ(0);
             transform: scale(1.05) translateZ(0);
   }
   
   #product_list .container .row .same_product .row .card:hover .add_to_cart {
     opacity: 1 !important;
-    -webkit-transform: translateX(-50%) !important;
-            transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
   }
   
   #product_list .container .row .same_product .row .card:hover .price {
     opacity: 0;
-    -webkit-transform: translateX(60px);
-            transform: translateX(60px);
+    transform: translateX(60px);
   }
   
   #product_list .container .row .same_product .row .card .image {
@@ -769,12 +816,10 @@ header nav {
   
   #product_list .container .row .same_product .row .card .image img {
     width: 100%;
-    -webkit-transition: -webkit-transform .2s ease-out;
     transition: -webkit-transform .2s ease-out;
     transition: transform .2s ease-out;
     transition: transform .2s ease-out, -webkit-transform .2s ease-out;
-    -webkit-transform: scale(1) translateZ(0);
-            transform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
   }
   
   #product_list .container .row .same_product .row .card .image .info {
@@ -802,7 +847,6 @@ header nav {
   #product_list .container .row .same_product .row .card .title .price {
     display: inline-block;
     position: relative;
-    -webkit-transition: all .3s ease;
     transition: all .3s ease;
   }
   
@@ -816,9 +860,7 @@ header nav {
     top: 53px;
     left: 50%;
     opacity: 0;
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-    -webkit-transition: all .4s ease;
+    transform: translateX(-100%);
     transition: all .4s ease;
   }
   
@@ -1025,20 +1067,17 @@ header nav {
   
   #progress_bar_1 .container .row .bars .bar .my_progress .f_my_bar {
     width: 95%;
-    -webkit-animation: f_my_bar 3s;
-            animation: f_my_bar 3s;
+    animation: f_my_bar 3s;
   }
   
   #progress_bar_1 .container .row .bars .bar .my_progress .s_my_bar {
     width: 80%;
-    -webkit-animation: s_my_bar 3s;
-            animation: s_my_bar 3s;
+    animation: s_my_bar 3s;
   }
   
   #progress_bar_1 .container .row .bars .bar .my_progress .t_my_bar {
     width: 55%;
-    -webkit-animation: t_my_bar 3s;
-            animation: t_my_bar 3s;
+    animation: t_my_bar 3s;
   }
   
   @-webkit-keyframes f_my_bar {
@@ -1129,20 +1168,17 @@ header nav {
   
   #progress_bar_2 .container .row .bars .bar .my_progress .f_my_bar {
     width: 95%;
-    -webkit-animation: f_my_bar 3s;
-            animation: f_my_bar 3s;
+    animation: f_my_bar 3s;
   }
   
   #progress_bar_2 .container .row .bars .bar .my_progress .s_my_bar {
     width: 80%;
-    -webkit-animation: s_my_bar 3s;
-            animation: s_my_bar 3s;
+    animation: s_my_bar 3s;
   }
   
   #progress_bar_2 .container .row .bars .bar .my_progress .t_my_bar {
     width: 55%;
-    -webkit-animation: t_my_bar 3s;
-            animation: t_my_bar 3s;
+    animation: t_my_bar 3s;
   }
   
   @keyframes f_my_bar {
@@ -1338,3 +1374,4 @@ header nav {
 .shopsimg img:hover{
     transform: scale(1.05);
 }
+
